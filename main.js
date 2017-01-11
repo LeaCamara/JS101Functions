@@ -58,6 +58,9 @@ function performAction(num1, num2, action) {
 var addValues = performAction(2, 3, add);
 console.log("addValues", addValues);
 
+var subtractValues = performAction(2, 3, subtract);
+console.log("subtractValues", subtractValues);
+
 // AKA a LAMBDA (an anonymous function that doesn't get named)
 // but is usually used as a value passed to another function
 // in order to pass a behavior as a value.
